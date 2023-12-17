@@ -1,3 +1,10 @@
-# About Content v2
+---
+title: 'Představení blogu'
+path: 'about'
+description: 'test'
+img: '/img/wallpaper.png'
+---
 
-[Back home](/)
+# Introduction to blog.spskh
+
+Lorem ipsum
