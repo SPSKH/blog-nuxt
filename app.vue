@@ -1,5 +1,5 @@
 <template>
-  <div>
+    <TheNav />
     <NuxtPage />
-  </div>
+    <TheFooter />
 </template>
