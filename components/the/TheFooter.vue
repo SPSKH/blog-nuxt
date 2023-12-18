@@ -6,7 +6,7 @@
             </h4>
             <span>|</span>
             <h4>
-                Created by: <NuxtLink to="https://innodex.cz" target="_blank">Innodex</NuxtLink>
+                Vytvořilo: <NuxtLink to="https://innodex.cz" target="_blank">Innodex</NuxtLink>
             </h4>
             <span>|</span>
             <h4>
