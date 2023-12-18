@@ -14,16 +14,29 @@ useSeoMeta({
     <main class="container">
         <ContentList path="/">
             <template #default="{ list }">
-                <div v-for="article in list" :key="article._path">
-                    <NuxtLink :to="article.path">
-                        <article>
-                            <img :src="article.img" :alt="article.title" />
-                            <h2>
-                                {{ article.title }}
-                            </h2>
-                            <p>{{ article.description }}</p>
-                        </article>
-                    </NuxtLink>
+                <div class="article_section">
+                    <div v-for="article in list" :key="article._path">
+                        <NuxtLink :to="article.path">
+                            <article class="animation_up">
+                                    <section>
+                                        <img :src="article.img" :alt="article.title" width="480" />
+                                    </section>
+                                    <section class="article_body">
+                                        <div>
+                                            <h2>
+                                                {{ article.title }}
+                                            </h2>
+                                            <p>{{ article.description }}</p>
+                                        </div>
+                                        <div class="article_info">
+                                            <span>{{ article.date }}</span>
+                                            <span>|</span>
+                                            <span>{{ article.author }}</span>
+                                        </div>
+                                    </section>
+                            </article>
+                        </NuxtLink>
+                    </div>
                 </div>
             </template>
             <template #not-found>

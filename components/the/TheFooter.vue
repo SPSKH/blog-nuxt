@@ -8,6 +8,12 @@
             <h4>
                 Created by: <NuxtLink to="https://innodex.cz" target="_blank">Innodex</NuxtLink>
             </h4>
+            <span>|</span>
+            <h4>
+            <NuxtLink to="mailto:cernochm@outlook.cz" target="_blank">
+                Kontaktuj správce
+            </NuxtLink>
+        </h4>
         </div>
         <div class="separator_xl">
             <NuxtLink to="https://www.instagram.com/spskutnahora/" target="_blank">

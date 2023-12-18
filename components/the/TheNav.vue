@@ -5,6 +5,5 @@
                 blog.spskh
             </NuxtLink>
         </h4>
-        <TheSearchBar />
     </nav>
 </template>
