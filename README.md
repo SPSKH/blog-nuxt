@@ -1,42 +1,18 @@
-# Content v2 Minimal Starter
+# blog.spskh
 
-Look at the [Content documentation](https://content.nuxt.com/) to learn more.
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-## Setup
+Studentský blog se články o novinkách ze světa IT, studentských projektech a čehokoli ze světa programování. Články pro vás připravuje kroužek Vývoje a informatiky SPŠ Kutná Hora, webovou stránku najdete na [blog.spskh.cz](https://blog.spskh.cz).
 
-Make sure to install the dependencies:
+## Použité technologie 🛠️
 
-```bash
-# yarn
-yarn install
+- JavaScript framework Nuxt 3
+- Redakční systém Nuxt Studio
 
-# npm
-npm install
+## Chci psát články, jak? 📝
 
-# pnpm
-pnpm install
-```
+Kontaktujte správce pro udělení oprávnění [cernochm@outlook.cz](mailto:cernochm@outlook.cz).
 
-## Development Server
+---
 
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+© 2023 - Martin Černoch | Vytvořilo: [Innodex](https://innodex.cz)
