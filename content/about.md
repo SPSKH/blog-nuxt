@@ -9,4 +9,4 @@ author: Martin Černoch
 
 # Introduction to blog.spskh
 
-Lorem ipsum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas. Suspendisse potenti nullam ac tortor. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.

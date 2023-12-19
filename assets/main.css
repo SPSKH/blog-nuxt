@@ -46,9 +46,8 @@ span, p, h4 {
 }
 
 nav {
-    background: linear-gradient(to right, var(--blue-primary), var(--blue-secondary));
     height: 64px;
-    color: #ffffff;
+    box-shadow: 4px 4px var(--grey-secondary);
 }
 
 footer {
@@ -96,7 +95,9 @@ a {
 }
 
 nav a {
-    color: #ffffff;
+    background: linear-gradient(to right, var(--blue-primary), var(--blue-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
 }
 

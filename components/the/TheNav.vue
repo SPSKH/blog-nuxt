@@ -1,9 +1,18 @@
+<script setup lang="ts">
+const search = ref('')
+// const results = searchContent(search)
+</script>
 <template>
     <nav>
-        <h4>
-            <NuxtLink to="/">
-                blog.spskh
-            </NuxtLink>
-        </h4>
+        <div>
+            <h4>
+                <NuxtLink to="/">
+                    blog.spskh
+                </NuxtLink>
+            </h4>
+        </div>
+        <div>
+            <input type="text" v-model="search"/>
+        </div>
     </nav>
 </template>

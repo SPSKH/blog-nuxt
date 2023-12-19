@@ -10,7 +10,7 @@
             </h4>
             <span>|</span>
             <h4>
-            <NuxtLink to="mailto:cernochm@outlook.cz" target="_blank">
+            <NuxtLink to="mailto:cernochm@outlook.cz?subject=Kontakt přes blog.spskh" target="_blank">
                 Kontaktuj správce
             </NuxtLink>
         </h4>
@@ -21,6 +21,9 @@
             </NuxtLink>
             <NuxtLink to="https://www.facebook.com/voskh" target="_blank">
                 <i class="fa-brands fa-facebook fa-2xl" />
+            </NuxtLink>
+            <NuxtLink to="https://www.youtube.com/@vosspsajskutnahora4137" target="_blank">
+                <i class="fa-brands fa-youtube fa-2xl" />
             </NuxtLink>
             <NuxtLink to="https://www.linkedin.com/company/spskh/" target="_blank">
                 <i class="fa-brands fa-linkedin fa-2xl" />
