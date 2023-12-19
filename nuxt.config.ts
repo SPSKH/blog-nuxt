@@ -1,7 +1,21 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/content'],
+  content: {
+    highlight: {
+      theme: 'github-light',
+      preload: ['js', 'ts', 'vue', 'json', 'bash', 'md']
+    },
+    experimental: {
+      search: true
+    }
+  },
   css: ['~/assets/main.css'],
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  },
   app: {
     head: {
       charset: 'utf-8',

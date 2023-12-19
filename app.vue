@@ -1,5 +1,7 @@
 <template>
     <TheNav />
-    <NuxtPage />
+    <div class="background">
+        <NuxtPage />
+    </div>
     <TheFooter />
 </template>

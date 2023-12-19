@@ -10,5 +10,8 @@
   "devDependencies": {
     "@nuxt/content": "^2.9.0",
     "nuxt": "^3.8.2"
+  },
+  "dependencies": {
+    "sitemap": "^7.1.1"
   }
 }

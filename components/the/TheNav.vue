@@ -12,7 +12,8 @@ const search = ref('')
             </h4>
         </div>
         <div>
-            <input type="text" v-model="search"/>
+            <!-- <input type="text" v-model="search" /> -->
         </div>
+        <!-- {{ results }} -->
     </nav>
 </template>
