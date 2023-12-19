@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   content: {
     highlight: {
-      theme: 'nord',
+      theme: 'github-dark',
       preload: ['js', 'ts', 'vue', 'json', 'bash', 'md']
     },
     experimental: {
