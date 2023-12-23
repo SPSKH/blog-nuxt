@@ -1,15 +1,15 @@
-<script setup lang="ts">
+<script setup>
 useSeoMeta({
     title: 'blog.spskh',
     ogTitle: 'blog.spskh',
-    description: 'Články ohledně novinek v IT, studentských projektů či cokoli ze světa programování pro Vás připravují studenti Průmyslovky Kutná Hora!',
-    ogDescription: 'Články ohledně novinek v IT, studentských projektů či cokoli ze světa programování pro Vás připravují studenti Průmyslovky Kutná Hora!'
+    description: 'Články ohledně novinek v IT, studentských projektů či cokoli ze světa technologií pro Vás připravují studenti Průmyslovky Kutná Hora!',
+    ogDescription: 'Články ohledně novinek v IT, studentských projektů či cokoli ze světa technologií pro Vás připravují studenti Průmyslovky Kutná Hora!'
 })
 </script>
 <template>
     <header>
         <h1>blog.spskh</h1>
-        <p>Články ohledně novinek v IT, studentských projektů či cokoli ze světa programování pro Vás připravují studenti Průmyslovky Kutná Hora!</p>
+        <p>Články ohledně novinek v IT, studentských projektů či cokoli ze světa technologií pro Vás připravují studenti Průmyslovky Kutná Hora!</p>
     </header>
     <main class="container">
         <ContentList path="/">

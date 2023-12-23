@@ -1,6 +1,6 @@
-<script setup lang="ts">
+<script setup>
 const search = ref('')
-// const results = searchContent(search)
+const results = searchContent(search)
 </script>
 <template>
     <nav>
@@ -12,8 +12,8 @@ const search = ref('')
             </h4>
         </div>
         <div>
-            <!-- <input type="text" v-model="search" /> -->
+            <input type="text" v-model="search" />
         </div>
-        <!-- {{ results }} -->
+        {{ results }}
     </nav>
 </template>

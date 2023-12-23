@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 const socials = [
     { url: 'https://www.instagram.com/spskutnahora/', icon: 'instagram' },
     { url: 'https://www.facebook.com/voskh', icon: 'facebook' },
@@ -26,7 +26,7 @@ const socials = [
         </div>
         <div class="separator_xl">
             <NuxtLink v-for="item in socials" :key="item.icon" :to="item.url" target="_blank">
-                <i class="fa-brands fa-2xl fa-" :class="`fa-${item.icon}`"/>
+                <i class="fa-brands fa-2xl" :class="`fa-${item.icon}`"/>
             </NuxtLink>
         </div>
     </footer>

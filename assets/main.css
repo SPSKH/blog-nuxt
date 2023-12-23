@@ -116,6 +116,17 @@ footer a:hover {
     text-underline-offset: 8px;
 }
 
+aside {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(to right, var(--blue-primary), var(--blue-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
 .container {
     width: 1080px;
     margin-left: auto;
@@ -175,7 +186,7 @@ footer a:hover {
     gap: 8px;
 }
 
-.tags div {
+.tag {
     display: flex;
     gap: 8px;
     align-items: center;
