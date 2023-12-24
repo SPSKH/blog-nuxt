@@ -15,5 +15,6 @@ const results = searchContent(search)
             <input type="text" v-model="search" />
         </div>
         {{ results }}
+        {{ search }}
     </nav>
 </template>

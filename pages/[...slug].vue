@@ -13,17 +13,23 @@ useSeoMeta({
 })
 </script>
 <template>
-  <aside>
-    <NuxtLink to="#jak-používat-bold-a-italic">Jak používat bold a italic</NuxtLink>
-    <NuxtLink to="#příklad-použití-code-snippetu">Příklad použití code snippetu</NuxtLink>
-  </aside>
-  <main class="container">
-    <ContentRenderer v-if="page.body" :value="page" />
-    <div class="tags">
-      <div v-for="item in page.tags" :key="item.tags" class="tag">
-        <i class="fa-solid fa-tags fa-xl" />
-        <span>{{ item }}</span>
+  <article>
+    <aside>
+      <NuxtLink to="#jak-používat-bold-a-italic">Jak používat bold a italic</NuxtLink>
+      <NuxtLink to="#příklad-použití-code-snippetu">Příklad použití code snippetu</NuxtLink>
+    </aside>
+    <main class="container">
+      <ContentRenderer v-if="page.body" :value="page" />
+      <div class="tags">
+        <div v-for="item in page.tags" :key="item.tags" class="tag">
+          <i class="fa-solid fa-hashtag fa-xl" />
+          <span>{{ item }}</span>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
+    <aside>
+      <NuxtLink to="#jak-používat-bold-a-italic">Jak používat bold a italic</NuxtLink>
+      <NuxtLink to="#příklad-použití-code-snippetu">Příklad použití code snippetu</NuxtLink>
+    </aside>
+  </article>
 </template>
