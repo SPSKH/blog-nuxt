@@ -6,12 +6,14 @@ Studentský blog se články o novinkách ze světa IT, studentských projektech
 
 ## Použité technologie 🛠️
 
-- JavaScript framework Nuxt 3
-- Redakční systém Nuxt Studio
+- JavaScript framework [Nuxt 3](https://nuxt.com/)
+- Redakční systém [Nuxt Studio](https://nuxt.studio/)
+- Správce balíčků [Bun](https://bun.sh/)
 
 ## Chci psát články, jak? 📝
 
-Kontaktujte správce pro udělení oprávnění [cernochm@outlook.cz](mailto:cernochm@outlook.cz).
+Kontaktujte správce pro udělení oprávnění [cernochm@outlook.cz](mailto:cernochm@outlook.cz) nebo [cernochmartin215@student.voskh.cz](mailto:cernochmartin215@student.voskh.cz).
+Na webu najdete *guide*, jak začít psát a jakou strukturu mají články mít.
 
 ---
 
