@@ -33,7 +33,7 @@ hello world
 const vue = useVue()
 ```
 
-```bash
+```shell [bash]
 pnpm install
 ```
 

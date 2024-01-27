@@ -19,9 +19,7 @@ h1 {
     font-size: 48px;
     font-weight: 600;
     text-align: center;
-    background: linear-gradient(to right, var(--blue-primary), var(--blue-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--blue-primary);
     padding-top: 48px;
     padding-bottom: 12px;
 }
@@ -29,9 +27,7 @@ h1 {
 h2 {
     font-size: 32px;
     font-weight: 500;
-    background: linear-gradient(to right, var(--blue-primary), var(--blue-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--blue-primary);
     padding-top: 32px;
     padding-bottom: 12px;
 }
@@ -96,9 +92,7 @@ a {
 }
 
 nav a {
-    background: linear-gradient(to right, var(--blue-primary), var(--blue-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--blue-primary);
     text-decoration: none;
 }
 
@@ -121,9 +115,7 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient(to right, var(--blue-primary), var(--blue-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--blue-primary);
     text-decoration: none;
 }
 
@@ -155,7 +147,7 @@ aside {
 }
   
 .animation_up:hover {
-    top: -6px;
+    top: -4px;
 }
 
 .article_section {
