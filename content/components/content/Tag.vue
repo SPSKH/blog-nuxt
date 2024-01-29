@@ -1,5 +1,5 @@
 <template>
     <div class="tag">
-        <ContentSlot :use="$slots.default" unwrap="p"/>
+        <ContentSlot :use="$slots.default" />
     </div>
 </template>

@@ -12,8 +12,6 @@ tags:
     - Pro studenty
 ---
 
-# Jak psát články na blog
-
 *Máte zájem napsat si článek, ale nevíte kde začít? Nebojte se*
 
 ## Jak používat bold a italic
