@@ -12,7 +12,7 @@ Studentský blog se články o novinkách ze světa IT, studentských projektech
 
 ## Chci psát články, jak? 📝
 
-Kontaktujte správce pro udělení oprávnění [cernochm@outlook.cz](mailto:cernochm@outlook.cz) nebo [cernochmartin215@student.voskh.cz](mailto:cernochmartin215@student.voskh.cz).
+Kontaktujte správce pro udělení oprávnění [cernochm@outlook.cz](mailto:cernochm@outlook.cz) nebo [cernoch@voskh.cz](mailto:cernoch@voskh.cz).
 Na webu najdete *guide*, jak začít psát a jakou strukturu mají články mít.
 
 ---
